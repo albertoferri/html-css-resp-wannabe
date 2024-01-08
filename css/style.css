@@ -128,14 +128,19 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+/* viewport tablet */
 
- @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
 
     .container {
         width: 100%;
     }
 }
- 
+
+
+/* viewport mobile */
+
+
 @media screen and (max-width: 480px){
 
     .container .row{
@@ -150,6 +155,15 @@ img {
         margin: 50px 0px;
     }
 }
+
+@media screen and (min-width: 300px)
+and (max-width: 480px){
+    body{
+        overflow-x: hidden;
+    }
+    
+}
+
 
 
 /* parte bonus */
