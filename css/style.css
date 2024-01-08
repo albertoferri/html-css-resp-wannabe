@@ -134,11 +134,6 @@ img {
     .container {
         width: 100%;
     }
-
-    /* main{
-        max-width: 768px;
-    } */
-    
 }
  
 @media screen and (max-width: 480px){
@@ -154,9 +149,18 @@ img {
         width: 100%;
         margin: 50px 0px;
     }
+}
 
-    /* main{
-        max-width: 480px;
-    } */
 
+/* parte bonus */
+
+@media screen and (min-width: 768px) 
+and (max-width: 1160px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 100%;
+    }
 }
